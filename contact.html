@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ContactUs | Simple HTML Template</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Shakti Poly Glass</h1>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">AboutUs</a></li>
+                <li><a class="active" href="./contact.html">ContactUs</a></li>
+                <li><a href="./services.html">Services</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <h1>Welcome to ContactUs Form</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Accounts'Info</legend>
+                    <label>Name :</label><br>
+                    <input type="text" name="name"><br>
+                    <label>Phone :</label><br>
+                    <input type="tel" name="phone"><br>
+                    <label>Email :</label><br>
+                    <input type="email" name="email"><br>
+                    <label>Password :</label><br>
+                    <input type="password" name="password">
+
+                </fieldset>
+                <fieldset>
+                    <legend>Users'Info</legend>
+                    <label>Date Of Birth : </label>
+                    <input type="date" name="dateofbirth"><br>
+                    <label>Location :</label>
+                    <Select>
+                        <option value="Ranchi" selected>Ranchi</option>
+                        <option value="Daltonganj">Daltonganj</option>
+                        <option value="Palamu">Palamu</option>
+                        <option value="Gumla">Gumla</option>
+                        <option value="Lohardagga">Lohardagga</option>
+                    </Select><br>
+                    <label>Gender :</label>
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Female">Female
+                    <input type="radio" name="Gender" value="Other">Other <br>
+                    <label>Intrests :</label>
+                    <input type="checkbox" name="Intrests" value="Movies">Movies
+                    <input type="checkbox" name="Intrests" value="Programming">Programming
+                    <input type="checkbox" name="Intrests" value="Sports">Sports
+                    <input type="checkbox" name="Intrests" value="Travelling">Travelling <br>
+                    <label>Message :</label><br>
+                    <textarea name="Message" style="width: 400px;height: 100px;"></textarea><br>
+                    <input type="submit" value="Send" name="Send">
+                </fieldset>
+            </form>
+
+        </div>
+        <div id="sidebar">
+            <h3>Sidebar</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic, nostrum veniam iure ut ratione sequi fugit libero aliquid, expedita, ad molestiae vel. Adipisci natus est rerum ea repudiandae non.</p>
+        </div>
+        <div class="clear"></div>
+        <div id="footer">
+           <p>Copyright &copy; 2025 All Rights Reserved.</p> 
+        </div>
+    </div>
+</body>
+</html>
